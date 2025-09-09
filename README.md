@@ -23,7 +23,7 @@ A FastAPI-based game engine with concurrent gameplay support, comprehensive test
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/shujian0512/DISTRIBUTED_GRID_GAME_ENGINE.git
-cd distributed_grid_game_engine
+cd DISTRIBUTED_GRID_GAME_ENGINE
 ```
 
 ### 2. Create Virtual Environment
@@ -40,6 +40,7 @@ pip install -r requirements.txt
 
 ### Start the FastAPI Server
 ```bash
+cd app
 fastapi dev main.py
 ```
 

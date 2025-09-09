@@ -1,0 +1,11 @@
+# Core FastAPI framework
+fastapi[standard]==0.116.1
+
+# Database
+sqlmodel==0.0.24
+
+# Testing
+pytest==8.4.2
+pytest-cov==6.3.0  # Test coverage reporting
+httpx==0.28.1 # For testing FastAPI endpoints
+asyncio==4.0.0 # For asynchronous operations
